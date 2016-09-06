@@ -12,7 +12,7 @@ class TestArrayFunction <Minitest::Test
  		assert_equal("MinedMinds", results[14])
  	end
 
- 	def test_3_returns_mined
+ 	def test_3_returns_Mined
  		results = array_mined_minds
  		assert_equal("Mined", results[2])
  	end
@@ -22,5 +22,13 @@ class TestArrayFunction <Minitest::Test
  		assert_equal("Minds", results[4])
  	end
 
+ 	def test_30_returns_MindMinds
+ 		results = array_mined_minds
+ 		assert_equal("MinedMinds", results[29])
+ 	end
  	
+ 	def test_last_returns_Minds
+ 		results = array_mined_minds
+ 		assert_equal("Minds", results.last) #or could put results[99] here
+ 	end
 end		
