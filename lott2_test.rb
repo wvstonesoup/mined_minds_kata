@@ -33,6 +33,11 @@ class TestWinningNumbers < Minitest::Test
 		assert_equal(["1234", "1234"], find_winners(our_ticket, winning_tickets))
 	end
 
+	# def test_i_bought_more_than_one_ticket
+	# 	two_tickets = "1234", "2345"
+	# 	winning_tickets = ["1234", "2345", "4567", "1234"]
+	# 	assert_equal(["1234", "1234", "2345"], find_winners(two_tickets, winning_tickets))
+	# end
 
 
 
